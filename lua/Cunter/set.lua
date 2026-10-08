@@ -10,3 +10,4 @@ vim.o.termguicolors = true
 
 vim.cmd('syntax enable')
 vim.cmd('filetype plugin indent on')
+

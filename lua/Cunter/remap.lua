@@ -1,4 +1,3 @@
-
 -- Explorer (netrw)
 vim.keymap.set("n", "<leader>E", vim.cmd.Ex)
 
@@ -12,7 +11,7 @@ vim.keymap.set("n", "<leader>wq", vim.cmd.wq)
 -- Source current file
 vim.keymap.set("n", "<leader>so", function() 
 	vim.cmd.so()
-	print("File sourced..")
+	print("File sourced\u{2026}")
 end, {})
 
 --Terminal emulator.
