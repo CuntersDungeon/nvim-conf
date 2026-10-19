@@ -3,7 +3,8 @@ return {
 	lazy = false,
 	build = ':TSUpdate',
 	opts = {
-		ensure_installed = { "cpp" }
+		ensure_installed = { "cpp", "lua", "vim", "vimdoc", "javascript", "typescript",
+		"python", "rust", "go", "html", "css", "json", "yaml", "toml", "markdown", "bash" }
 	},
 	config = function()
 		require("nvim-treesitter").install({ "c", "cpp", "lua", "vim", "vimdoc" })

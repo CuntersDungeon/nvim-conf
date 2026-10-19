@@ -1,4 +1,5 @@
 require("Cunter.set")
-require("Cunter.remap")
 require("Cunter.lazy")
-
+require("Cunter.remap")
+require("Cunter.lsp")
+require("vim._core.ui2").enable({})
