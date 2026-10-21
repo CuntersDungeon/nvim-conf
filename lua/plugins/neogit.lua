@@ -2,7 +2,7 @@
 --Hi don't understand anything? Go here --> https://github.com/NeogitOrg/neogit
 return {
 	"NeogitOrg/neogit",
-	lazy=true,
+	lazy = true,
 	dependencies={
 		--Only one of these is needed.
 		"sindrets/diffview.nvim",--optional
@@ -17,7 +17,7 @@ return {
 		"nvim-mini/mini.pick",--optional
 		"folke/snacks.nvim",--optional
 	},
-	cmd="Neogit",
+	cmd = "Neogit",
 	keys={
 		{"<leader>gg","<cmd>Neogit<cr>",desc="ShowNeogitUI"}
 	}
